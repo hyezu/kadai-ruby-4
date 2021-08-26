@@ -44,23 +44,23 @@
     </tr>
     <tr>
         <td>会社名</td>
-        <td>株式会社エグザンプル</td>
+        <td><%= params['company'] %></td>
     </tr>
     <tr>
         <td>氏名</td>
-        <td>田中 太郎</td>
+        <td><%= params['name'] %></td>
     </tr>
     <tr>
         <td>メール</td>
-        <td>info@example.jp</td>
+        <td><%= params['mail'] %></td>
     </tr>
     <tr>
         <td>電話番号</td>
-        <td>012-345-6789</td>
+        <td><%= params['tel'] %></td>
     </tr>
     <tr>
         <td>内容</td>
-        <td>特にありません。<br>これからも頑張ってください。</td>
+        <td><%= params['content'] %></td>
     </tr>
 </table>
 
